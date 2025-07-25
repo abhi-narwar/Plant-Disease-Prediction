@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load trained model
-with open('plant_disease_detection_model.pkl', 'rb') as f:
+with open('model1.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Streamlit UI
